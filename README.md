@@ -91,19 +91,19 @@ You can also use the `lenis.instance(<id>)` in sub components to get the instanc
 
 ### Action extra methods
 
-- instance: Method use for get the intance by id
+- `.instance`: Method use for get the intance by id
     - type: `instance(id: string): Readable<Lenis>`
     - default: none
+- `.root`: Is just an alias for `lenis.instance('root')` which get global lenis instance.
 
 Usage:
 ```js
     import { lenis } from "lenis-svelte";
     
     const box = lenis.instance('box-1');
+    const root = lenis.root();
 ```
 
-
-- root: Is just an alias for `lenis.instance('root')` which get global lenis instance.
-
-
+## Live example
+You can play with the example in the app playground [here](./src/app/pages/home/home.svelte).
 

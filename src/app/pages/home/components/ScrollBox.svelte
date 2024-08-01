@@ -16,6 +16,7 @@
     <div class="container">
         <h1 class="title">Svelte Lenis</h1>
         <p>Scroll here...</p>
+        <slot id={id}/>
     </div>
 </div>
 

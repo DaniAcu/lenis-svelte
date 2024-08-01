@@ -4,6 +4,7 @@
 
     import { onMount } from "svelte";
 	import { lenis } from "$lib/index.js";
+	import ScrollBottom from './components/ScrollBottom.svelte';
 
     const root = lenis.instance('root');
 
@@ -17,7 +18,9 @@
 <main class="main" use:lenis>
     <div>
         <ScrollBox />
-        <ScrollBox />
+        <ScrollBox let:id>
+            <ScrollBottom id={id} />
+        </ScrollBox>
         <ScrollBox />
         <ScrollBox />
         <ScrollBox />

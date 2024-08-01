@@ -1,6 +1,8 @@
 # Lenis Svelte
-Lenis Svelte provides an [action](https://svelte.dev/docs/svelte-action) that instantiate Lenis for you in a Svelte app.
+Lenis Svelte provides an [action](https://svelte.dev/docs/svelte-action) that instantiate [Lenis](https://lenis.darkroom.engineering/) for you in a Svelte app.
 This facilitate the use of Lenis in Svelte App without worry about how use it cross the component tree.
+
+If you are more interested realted to Lenis. Please check out their repository [here](https://github.com/darkroomengineering/lenis)
 
 ## Installation
 

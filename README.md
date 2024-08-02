@@ -1,4 +1,6 @@
 # Lenis Svelte
+[![npm](https://img.shields.io/npm/v/lenis-svelte?colorA=000000&colorB=ff98a2)](https://www.npmjs.com/package/lenis-svelte)
+
 Lenis Svelte provides an [action](https://svelte.dev/docs/svelte-action) that instantiate [Lenis](https://lenis.darkroom.engineering/) for you in a Svelte app.
 This facilitate the use of Lenis in Svelte App without worry about how use it cross the component tree.
 

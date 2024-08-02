@@ -1,8 +1,9 @@
 {
 	"name": "lenis-svelte",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"license": "MIT",
 	"author": "Daniel Nahuel Acula <danielnahuelacuna98@gmail.com> (https://github.com/DaniAcu)",
+	"repository": "github:DaniAcu/lenis-svelte",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
